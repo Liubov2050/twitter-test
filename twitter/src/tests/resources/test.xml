@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Twitter public APIs tests" parallel="tests" thread-count="1">
+
+
+    <test name="Status destroy test">
+        <classes>
+            <class name="com.twitter.tests.TwitterAPITests" >
+                <methods>
+                    <!--
+                   <exclude name="billDeskCCTest"/>
+                    -->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
